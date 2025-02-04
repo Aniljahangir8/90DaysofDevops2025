@@ -2,19 +2,19 @@
 
 # Tasks:
 
-# 1. Understand OSI & TCP/IP Models
+## 1. Understand OSI & TCP/IP Models
 
 The OSI (Open Systems Interconnection) model is a conceptual framework with 7 layers.
 Each layer has a specific role in data transmission, following are the 7 layers of OSI Model.
 
 # Layers:
-# 1. Physical Layer
-# 2. Data Link Layer
-# 3. Network Layer
-# 4. Transport Layer
-# 5. Session Layer
-# 6. Presentation Layer
-# 7. Application Layer
+## 1. Physical Layer
+## 2. Data Link Layer
+## 3. Network Layer
+## 4. Transport Layer
+## 5. Session Layer
+## 6. Presentation Layer
+## 7. Application Layer
 
 1. **Physical Layer**: Deals with the physical connection between devices.
 Example: Ethernet cables, Wi-Fi signals, or fiber optics cables.
@@ -42,10 +42,10 @@ Example: HTTP for web browsing or SMTP for sending emails.
 
 The TCP/IP model is a simplified version of the OSI model with 4 layers.
 
-# 1. Network Access Layer
-# 2. Internet Layer
-# 3. Transport Layer
-# 4. Application Layer
+## 1. Network Access Layer
+## 2. Internet Layer
+## 3. Transport Layer
+## 4. Application Layer
 
 1. **Network Access Layer**: Combines OSI’s Physical and Data Link layers. Example: Ethernet or Wi-Fi protocols.
 2. **Internet Layer**: Corresponds to OSI’s Network Layer. Example: IP (Internet Protocol) for addressing and routing.
@@ -94,7 +94,7 @@ Step-by-Step Guide to Create Ec2 Instance and Configure Security Groups
 
 Practice essential networking commands like: 
 
-# Cheat Sheet for Networking Commands:
+## Cheat Sheet for Networking Commands:
 | Command     | Purpose                                    | Example                                  |
 |------------|---------------------------------------------|------------------------------------------|
 | `ping`     | Check connectivity to a host.               | `ping google.com`                        |
