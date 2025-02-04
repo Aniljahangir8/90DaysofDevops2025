@@ -52,7 +52,7 @@ The TCP/IP model is a simplified version of the OSI model with 4 layers.
 3. **Transport Layer**: Same as OSI’s Transport Layer. TCP (reliable) or UDP (fast) for data delivery.
 4. **Application Layer**: Combines OSI’s Session, Presentation, and Application layers. Example: HTTP, FTP, DNS, or SSH.
 
-#################################################################################
+---
 
 # 2. Protocols and Ports for DevOps
 
@@ -68,7 +68,7 @@ Study the most commonly used protocols (e.g., HTTP, HTTPS, FTP, SSH, DNS) and th
 | SMTP     | 25   | Email delivery              |
 | MySQL    | 3306 | Database access             |
 
-#################################################################################
+---
 
 # 3: AWS EC2 and Security Groups
 
@@ -88,7 +88,7 @@ Step-by-Step Guide to Create Ec2 Instance and Configure Security Groups
 1. Select Created Security Group
 2. Configure Inbound and Outbound traffic like 80, 443, 22 or other required ports.
 
-##################################################################################
+---
 
 # 4. Hands-On with Networking Commands
 
