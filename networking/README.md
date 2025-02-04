@@ -56,16 +56,17 @@ The TCP/IP model is a simplified version of the OSI model with 4 layers.
 
 # 2. Protocols and Ports for DevOps
 
-Study the most commonly used protocols (e.g., HTTP, HTTPS, FTP, SSH, DNS) and their port numbers.
+Study the most commonly used protocols (e.g., HTTP, HTTPS, FTP, SSH, DNS) and their port numbers. 
 
-# Protocol	 Port	  Purpose
-  HTTP	     80	    Web traffic
-  HTTPS	     443	  Secure web traffic
-  FTP	       21	    File transfer
-  SSH	       22	    Secure remote access
-  DNS	       53	    Domain name resolution
-  SMTP	     25	    Email delivery
-  MySQL	     3306	  Database access
+| Protocol | Port  | Purpose                    |
+|----------|------|-----------------------------|
+| HTTP     | 80   | Web traffic                 |
+| HTTPS    | 443  | Secure web traffic          |
+| FTP      | 21   | File transfer               |
+| SSH      | 22   | Secure remote access        |
+| DNS      | 53   | Domain name resolution      |
+| SMTP     | 25   | Email delivery              |
+| MySQL    | 3306 | Database access             |
 
 #################################################################################
 
@@ -94,12 +95,13 @@ Step-by-Step Guide to Create Ec2 Instance and Configure Security Groups
 Practice essential networking commands like: 
 
 # Cheat Sheet for Networking Commands:
+| Command     | Purpose                                    | Example                                  |
+|------------|---------------------------------------------|------------------------------------------|
+| `ping`     | Check connectivity to a host.               | `ping google.com`                        |
+| `traceroute` | Trace the path packets take to a host.    | `traceroute google.com` (Linux)          |
+| `netstat`  | Display network connections and statistics. | `netstat -an` (show all connections)     |
+| `curl`     | Make HTTP requests from the command line.   | `curl https://api.example.com/data`      |
+| `dig`      | Perform DNS lookups.                        | `dig google.com`                         |
+| `nslookup` | Query DNS records.                          | `nslookup google.com`                    |
 
-# Command	        Purpose	                                        Example
-  ping	        Check connectivity to a host.	                    ping google.com
-  traceroute	  Trace the path packets take to a host.            traceroute google.com (Linux) / tracert google.com (Windows)
-  netstat	      Display network connections and statistics.       netstat -an (show all connections)
-  curl	        Make HTTP requests from the command line.	        curl https://api.example.com/data
-  dig	          Perform   	DNS lookups.	                        dig google.com
-  nslookup		  Query DNS records.								                nslookup google.com
 
